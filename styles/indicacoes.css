@@ -1,0 +1,54 @@
+
+
+#indicacoes{
+  width: 80vw;
+  min-height: 70vh;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#indicacoes p, #card-wrapper h2{
+  font-size:2vw;
+  margin:auto;
+  line-height: 3vh;
+  color:white;
+  margin: 1vh 1vw;
+}
+
+#top-block{
+  min-height: auto;
+  flex:1;
+  margin:auto;
+  color:white;
+  background-color: #464A57;
+  padding: 0 10%;
+  transition: scale 0.5s, font-size 0.5s;
+}
+#top-block:hover{
+  scale: 110%;
+  font-size: 1em;
+}
+#card-wrapper{
+  flex: 100;
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  width:30%;
+  min-height:40%;
+  max-height: fit-content;
+  border: 2px solid blue;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5D82F0;
+  box-shadow: 0px 0px 20px gold;
+}
+#rant{
+  font-size: 1vw;
+  line-height: 0.2vh;
+}
+#filme{
+  margin-top:10%;
+}

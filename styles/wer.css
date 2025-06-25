@@ -1,0 +1,29 @@
+#werBinIch{
+  min-height: 70vh;
+  max-height: fit-content;
+  width:80%;
+  display: grid;
+  grid-template-rows:1fr 1fr 2fr;
+  margin: auto;
+}
+#werBinIch > div{
+  width:100%;
+  height: 100%;
+}
+#imgWrapper img{
+  width:30%;
+  height:100%;
+}
+.text{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+#imgWrapper{
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
